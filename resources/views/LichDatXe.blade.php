@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{asset('alertify/css/alertify.rtl.min.css')}}">
     <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Xem Lịch Đặt Xe</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
 
@@ -69,7 +69,7 @@
               <a class="nav-link" href="{{URL::to('/taikhoan')}}">Tài khoản</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{URL::to('/phanhoi')}}">Liên hệ</a>
+              <a class="nav-link" href="{{URL::to('/phanhoi')}}">Liên hệ & Phản hồi</a>
             </li>
             
           </ul>
@@ -91,19 +91,17 @@
             <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                <h1><strong>TP.HCM -> Đà Lạt </strong></h1>
+                <p>Giữa thời tiết nóng bức của mùa hè, còn gì tuyệt vời hơn là đi đến Đà Lạt.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
             <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <div class="carousel-caption text-left">
+                <h1><strong>Cần Thơ -> Đồng Văn </strong></h1>
+                <p>Ngại gì .</p>
               </div>
             </div>
           </div>
@@ -111,9 +109,8 @@
             <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <h1><strong>TP.HCM -> Đà Lạt </strong></h1>
+                <p>Giữa thời tiết nóng bức của mùa hè, còn gì tuyệt vời hơn là đi đến Đà Lạt.</p>
               </div>
             </div>
           </div>
@@ -138,19 +135,19 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="{{asset('images/logo.jpg')}}" alt="Generic placeholder image" width="140" height="140">
             <h2>Sự uy tín tuyệt đối</h2>
             <p>Sự uy tín đã được khẳng định qua kinh nghiệm làm việc lâu dài, với chất lượng đào tạo công nhân viên chuẩn chỉ.......</p>
             <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="{{asset('images/logo.jpg')}}" alt="Generic placeholder image" width="140" height="140">
             <h2>Phục vụ tận tâm vì khách hàng</h2>
             <p><i>Khách hàng là thượng đế</i>, đây là phương châm làm việc của chúng tôi. Chúng tôi không ngừng nâng cao chất lượng dichjvuj của mình.....</p>
             <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="{{asset('images/logo.jpg')}}" alt="Generic placeholder image" width="140" height="140">
             <h2>Cảm giác trên xe như ở nhà</h2>
             <p>Chúng tôi hoàn toàn tự tin khẳng định rằng, ***** luôn là nhà xe tiên phong trong cung cấp các dịch vụ ân cần, chu đáo, tạo cảm giác bồng bềnh, thoải mái cho quý khách hàng của mình.........</p>
             <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
@@ -167,42 +164,41 @@
             <div class="day">Thu</div>
             <div class="day">Fri</div>
             <div class="day">Sat</div> -->
-            <!-- Here you can use JavaScript to generate the dates dynamically -->
-            <!-- <a href="#" class="day" onclick="testBox1()">1</a> -->
-            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+            <!-- <form action="{{URL::to('/lichdatxePost')}}" method="post">
                 {{ csrf_field() }}
                 <p class="day">1<input type="hidden" value="1" name="ngaydat"></p>
                 <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
-            </form>
-            <a href="#" class="day">2</a>
-            <a href="#" class="day">3</a>
-            <a href="#" class="day">4</a>
-            <a href="#" class="day">5</a>
-            <a href="#" class="day">6</a>
-            <a href="#" class="day">7</a>
-            <a href="#" class="day">8</a>
-            <a href="#" class="day">9</a>
-            <a href="#" class="day">10</a>
-            <a href="#" class="day">11</a>
-            <a href="#" class="day">12</a>
-            <a href="#" class="day">13</a>
-            <a href="#" class="day">14</a>
-            <a href="#" class="day">15</a>
-            <a href="#" class="day">16</a>
-            <a href="#" class="day">17</a>
-            <a href="#" class="day">18</a>
-            <a href="#" class="day">19</a>
-            <a href="#" class="day">20</a>
-            <a href="#" class="day">21</a>
-            <a href="#" class="day">22</a>
-            <a href="#" class="day">23</a>
-            <a href="#" class="day">24</a>
-            <a href="#" class="day">25</a>
-            <a href="#" class="day">26</a>
-            <a href="#" class="day">27</a>
-            <a href="#" class="day">28</a>
-            <a href="#" class="day">29</a>
-            <a href="#" class="day">30</a>          
+            </form> -->
+            <a href="#" class="day" onclick="testBox1()" >1</a>
+            <a href="#" class="day" onclick="testBox2()">2</a>
+            <a href="#" class="day" onclick="testBox2()">3</a>
+            <a href="#" class="day" onclick="testBox1()">4</a>
+            <a href="#" class="day" onclick="testBox3()">5</a>
+            <a href="#" class="day" onclick="testBox1()">6</a>
+            <a href="#" class="day" onclick="testBox2()">7</a>
+            <a href="#" class="day" onclick="testBox2()">8</a>
+            <a href="#" class="day" onclick="testBox2()">9</a>
+            <a href="#" class="day" onclick="testBox1()">10</a>
+            <a href="#" class="day" onclick="testBox1()">11</a>
+            <a href="#" class="day" onclick="testBox3()">12</a>
+            <a href="#" class="day" onclick="testBox2()">13</a>
+            <a href="#" class="day" onclick="testBox1()">14</a>
+            <a href="#" class="day" onclick="testBox3()">15</a>
+            <a href="#" class="day" onclick="testBox1()">16</a>
+            <a href="#" class="day" onclick="testBox2()">17</a>
+            <a href="#" class="day" onclick="testBox1()">18</a>
+            <a href="#" class="day" onclick="testBox3()">19</a>
+            <a href="#" class="day" onclick="testBox1()">20</a>
+            <a href="#" class="day" onclick="testBox1()">21</a>
+            <a href="#" class="day" onclick="testBox2()">22</a>
+            <a href="#" class="day" onclick="testBox3()">23</a>
+            <a href="#" class="day" onclick="testBox3()">24</a>
+            <a href="#" class="day" onclick="testBox1()">25</a>
+            <a href="#" class="day" onclick="testBox1()">26</a>
+            <a href="#" class="day" onclick="testBox3()">27</a>
+            <a href="#" class="day" onclick="testBox2()">28</a>
+            <a href="#" class="day" onclick="testBox1()">29</a>
+            <a href="#" class="day" onclick="testBox3()">30</a>          
             </div>
             <div class="text-center mt-3 mb-2">
                 <small>Bấm vào từng ngày để xem các tuyến khả dụng</small>
@@ -248,10 +244,13 @@
       </footer>
   <script>
     function testBox1(){
-        alertify.alert("<h2><i>Tung</i></h2>");
+        alertify.alert("<h4>Còn khả dụng</h4><br><strong>TP.HCM - Đà Lạt</strong>: 340,000 VND/khách/ghế<br><strong>Lào Cai - Hà Nội</strong>: 360,000 VND/khách/ghế<br><strong>Cần Thơ - Đà Lạt</strong>: 440,000 VND/khách/ghế");
     }
     function testBox2(){
-        alertify.alert("<h2><i>Tung</i></h2>");
+        alertify.alert("<h4>Còn khả dụng</h4><br><strong>Lai Châu - Huế</strong>: 840,000 VND/khách/ghế<br><strong>Lào Cai - Châu Thành</strong>: 960,000 VND/khách/ghế<br><strong>Cần Thơ - Hà Nội</strong>: 840,000 VND/khách/ghế");
+    }
+    function testBox3(){
+        alertify.alert("<h4>Còn khả dụng</h4><br><strong>TP.HCM - Hà Nội</strong>: 740,000 VND/khách/ghế<br><strong>Lào Cai - TP.HCM</strong>: 1,460,000 VND/khách/ghế<br><strong>Cần Thơ - Đồng Văn</strong>: 1,440,000 VND/khách/ghế");
     }
   </script>
     </main>

@@ -25,23 +25,25 @@ class CalendarController extends Controller
     }
 
     public function GetData(Request $req){ // form POST
+        $this->KiemTraXacThuc();
         $ngaydat = $req->ngaydat;  // 1
-        $mangDuLieu = array();
-        $query = TuyenXe::find($ngaydat);
+        // $mangDuLieu = array();
+        $mangDuLieu = TuyenXe::find($ngaydat);
         // $query =  TuyenXe::where('ngaydat', $ngaydat)->get();
 
-        if($query){
-            // $DDQuery = $query->DiemDau;
-            // $DCQuery = $query->DiemCuoi;
-            // $KHQuery = $query->KhuHoi;
-            // $GVQuery = $query->GiaVe;
-            $mangDuLieu = [
-                'DDQuery' =>  $query->DiemDau,
-                'DCQuery' =>  $query->DiemCuoi,
-                'KHQuery' =>  $query->KhuHoi,
-                'GVQuery' => $query->GiaVe,
-                ];
-        }
-        return Redirect::to('/lichdatxe')->with($mangDuLieu);
+        // if($query){
+        //     // $DDQuery = $query->DiemDau;
+        //     // $DCQuery = $query->DiemDen;
+        //     // $KHQuery = $query->KhuHoi;
+        //     // $GVQuery = $query->GiaVe;
+        //     $mangDuLieu = [
+        //         'DDQuery' =>  $query->DiemDau,
+        //         'DCQuery' =>  $query->DiemDen,
+        //         'KHQuery' =>  $query->KhuHoi,
+        //         'GVQuery' => $query->GiaVe,
+        //         ];
+        // }
+        // return Redirect::to('/lichdatxe')->with(compact('mangDuLieu'));
+        return view('TestFlight')->with(compact('mangDuLieu'));
     }
 }

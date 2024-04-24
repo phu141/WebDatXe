@@ -65,7 +65,7 @@
             }
         },
         glossary:{
-            title:'AlertifyJS',
+            title:'Thông tin đặt vé',
             ok: 'OK',
             cancel: 'Cancel',
             acccpt: 'Accept',
