@@ -20,33 +20,24 @@
   </head>
 
   <body>
-    <form class="form-signin" method="post" action="{{URL::to('/suataikhoanPost')}}">
+    <form class="form-signin" method="post" action="{{URL::to('/phanhoiPost')}}">
       {{ csrf_field() }}
       <div class="text-center mb-4">
         <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Cập nhật lại thông tin cá nhân</h1>
-        <p>Họ tên của bạn là không thể thay đổi</p>
+        <h1 class="h3 mb-3 font-weight-normal">Phản hồi ý kiến</h1>
+        <p>Chúng tôi luôn lắng nghe ý kiến của bạn</p>
       </div>
 
       <div class="form-label-group">
-        <input type="email" id="inputEmail" class="form-control" placeholder="nguyenvana@example.com" name="email" required>
-        <label for="inputEmail">Email</label>
+        <input type="text" id="inputMailContent" class="form-control" placeholder="***********" name="content" required>
+        <label for="inputMailContent">Nội dung phản hồi</label>
       </div>
 
-      <div class="form-label-group">
-        <input type="password" id="inputPassword" class="form-control" placeholder="***********" name="password" required>
-        <label for="inputPassword">Mật khẩu</label>
-      </div>
-
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Cập nhật t.tin</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Gửi đến E-mail Admin</button>
       
       <p class="mt-5 mb-3 text-muted text-center">&copy; Nhóm 6 - Đổi mới sáng tạo và khởi nghiệp</p>
     </form>
    
-    <div class="text-center mb-4">
-    Hoặc bạn có thể
-        <a href="{{URL::to('/dangxuat')}}" class="btn btn-sm btn-secondary btn-outline-danger">Đăng xuất</a>
-    </div>
     
   </body>
 </html>

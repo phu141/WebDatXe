@@ -28,7 +28,7 @@
         </a>
         <a class="py-2 d-none d-md-inline-block" href="#">Xem lịch đặt</a>
         <a class="py-2 d-none d-md-inline-block" href="{{URL::to('/taikhoan')}}">Xem tài khoản</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Mã nguồn</a>
+        <a class="py-2 d-none d-md-inline-block" href="https://github.com/phu141/WebDatXe" target="_blank">Mã nguồn</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Liên hệ và phản hồi</a>
       </div>
     </nav>

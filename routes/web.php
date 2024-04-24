@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthenticateController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\FeedbackController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,7 @@ Route::get('/dangxuat', [AuthenticateController::class, 'DangXuat']);
 Route::get('/taikhoan', [UserController::class, 'XemTaiKhoan']);
 Route::get('/suataikhoan', [UserController::class, 'ViewSuaTaiKhoan']);
 Route::post('/suataikhoanPost', [UserController::class, 'SuaTaiKhoan']);
+
+// lien he phan hoi
+Route::get('/phanhoi', [FeedbackController::class, 'ViewPhanHoi']);
+Route::post('/phanhoiPost', [FeedbackController::class, 'PhanHoi']);
