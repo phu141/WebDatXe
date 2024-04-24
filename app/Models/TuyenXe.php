@@ -15,4 +15,5 @@ class TuyenXe extends Model
         'KhuHoi',
         'GiaVe'
     ];
+    protected $table = 'tuyenxe';
 }

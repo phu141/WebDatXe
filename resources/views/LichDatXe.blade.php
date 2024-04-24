@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="{{asset('alertify/alertify.js')}}"></script>
+    <script src="{{asset('alertify/alertify.min.js')}}"></script>
+    <link rel="stylesheet" href="{{asset('alertify/css/alertify.css')}}">
+    <link rel="stylesheet" href="{{asset('alertify/css/alertify.min.css')}}">
+    <link rel="stylesheet" href="{{asset('alertify/css/alertify.rtl.css')}}">
+    <link rel="stylesheet" href="{{asset('alertify/css/alertify.rtl.min.css')}}">
     <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
 
     <title>Carousel Template for Bootstrap</title>
@@ -162,7 +168,12 @@
             <div class="day">Fri</div>
             <div class="day">Sat</div> -->
             <!-- Here you can use JavaScript to generate the dates dynamically -->
-            <a href="#" class="day">1</a>
+            <!-- <a href="#" class="day" onclick="testBox1()">1</a> -->
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">1<input type="hidden" value="1" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
             <a href="#" class="day">2</a>
             <a href="#" class="day">3</a>
             <a href="#" class="day">4</a>
@@ -235,7 +246,14 @@
           </div>
         </div>
       </footer>
-  
+  <script>
+    function testBox1(){
+        alertify.alert("<h2><i>Tung</i></h2>");
+    }
+    function testBox2(){
+        alertify.alert("<h2><i>Tung</i></h2>");
+    }
+  </script>
     </main>
 
     <!-- Bootstrap core JavaScript

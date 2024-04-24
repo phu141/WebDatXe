@@ -43,3 +43,4 @@ Route::post('/phanhoiPost', [FeedbackController::class, 'PhanHoi']);
 
 // lich dat xe
 Route::get('/lichdatxe', [CalendarController::class, 'LichDatXe']);
+Route::post('/lichdatxePost', [CalendarController::class, 'GetData']);
