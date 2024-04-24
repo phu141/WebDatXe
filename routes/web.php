@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthenticateController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\FeedbackController;
+use App\Http\Controllers\CalendarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +40,6 @@ Route::post('/suataikhoanPost', [UserController::class, 'SuaTaiKhoan']);
 // lien he phan hoi
 Route::get('/phanhoi', [FeedbackController::class, 'ViewPhanHoi']);
 Route::post('/phanhoiPost', [FeedbackController::class, 'PhanHoi']);
+
+// lich dat xe
+Route::get('/lichdatxe', [CalendarController::class, 'LichDatXe']);

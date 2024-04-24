@@ -56,7 +56,9 @@
         <div class="my-3 py-3">
           <h2 class="display-5">Xem lịch các tuyến</h2>
           <p class="lead">Và chọn cho mình ngày phù hợp nhất.</p>
-          <button class="btn btn-primary">Xem ngay</button>
+          <a href="{{URL::to('/lichdatxe')}}">
+            <button class="btn btn-primary">Xem ngay</button>
+          </a>
         </div>
         <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
