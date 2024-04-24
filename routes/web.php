@@ -31,4 +31,4 @@ Route::post('/dangnhapPost', [AuthenticateController::class, 'DangNhap']);
 Route::get('/dangxuat', [AuthenticateController::class, 'DangXuat']);
 
 // tai khoan
-Route::get('/nguoidung', [UserController::class, 'XemTaiKhoan']);
+Route::get('/taikhoan', [UserController::class, 'XemTaiKhoan']);

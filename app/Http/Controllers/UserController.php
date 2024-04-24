@@ -10,6 +10,6 @@ use Illuminate\Support\Facades\Redirect;
 class UserController extends Controller
 {
     public function XemTaiKhoan(){
-        return view();
+        return view('XemTaiKhoan');
     }
 }

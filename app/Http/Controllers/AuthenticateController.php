@@ -41,7 +41,7 @@ class AuthenticateController extends Controller
         if($result){
             Session::put('id', $result->id);
             Session::put('name', $result->name);
-            Session::put('password', $result->password);
+            Session::put('email', $result->email);
 
             return Redirect::to('/'); // tro ve trang chu, nhung da co Session roi
         }
