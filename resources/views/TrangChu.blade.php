@@ -29,7 +29,7 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Xem lịch đặt</a>
         <a class="py-2 d-none d-md-inline-block" href="{{URL::to('/taikhoan')}}">Xem tài khoản</a>
         <a class="py-2 d-none d-md-inline-block" href="https://github.com/phu141/WebDatXe" target="_blank">Mã nguồn</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Liên hệ và phản hồi</a>
+        <a class="py-2 d-none d-md-inline-block" href="{{URL::to('/phanhoi')}}">Liên hệ và phản hồi</a>
       </div>
     </nav>
 
@@ -64,7 +64,9 @@
         <div class="my-3 p-3">
           <h2 class="display-5">Liên hệ với nhà xe</h2>
           <p class="lead">Giải đáp những thắc mắc của bạn.</p>
+          <a href="{{URL::to('/phanhoi')}}">
           <button class="btn btn-secondary">Phản hồi</button>
+          </a>
         </div>
         <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>

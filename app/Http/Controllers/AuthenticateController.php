@@ -23,7 +23,7 @@ class AuthenticateController extends Controller
 
         $user = DB::table('users')->insertGetId($data);
 
-        return Redirect::to('/');
+        return Redirect::to('/dangnhap');
     }
 
     // dang nhap 
