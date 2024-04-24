@@ -32,3 +32,5 @@ Route::get('/dangxuat', [AuthenticateController::class, 'DangXuat']);
 
 // tai khoan
 Route::get('/taikhoan', [UserController::class, 'XemTaiKhoan']);
+Route::get('/suataikhoan', [UserController::class, 'ViewSuaTaiKhoan']);
+Route::post('/suataikhoanPost', [UserController::class, 'SuaTaiKhoan']);
