@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th4 24, 2024 lúc 12:03 PM
+-- Thời gian đã tạo: Th4 25, 2024 lúc 06:25 AM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.1.25
 
@@ -54,9 +54,10 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `addressFrom`, `feedbackContent`) VALUES
-(1, 'test@mail.com', 'tét mail'),
-(2, 'tungng14@gmail.com', 'hello world'),
-(3, 'tungng14@gmail.com', 'tiếng Việt');
+(1, 'test@mail.com', 'Tuyệt vời'),
+(2, 'phu@gmail.com', 'Dịch vụ xuất sắc'),
+(3, 'phu@gmail.com', 'Chỉ biết ước'),
+(4, 'admin2@mail.com', 'Trên cả tuyệt vời, xứng đáng 5 sao');
 
 -- --------------------------------------------------------
 
@@ -123,7 +124,7 @@ CREATE TABLE `tuyenxe` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `DiemDau` varchar(255) NOT NULL,
   `DiemDen` varchar(255) NOT NULL,
-  `KhuHoi` tinyint(1) NOT NULL,
+  `KhuHoi` varchar(1) NOT NULL,
   `GiaVe` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -132,36 +133,36 @@ CREATE TABLE `tuyenxe` (
 --
 
 INSERT INTO `tuyenxe` (`id`, `DiemDau`, `DiemDen`, `KhuHoi`, `GiaVe`) VALUES
-(1, 'TP.HCM', 'Đà Lạt', 1, '280000'),
-(2, 'TP.HCM', 'Đà Nẵng', 0, '490000'),
-(3, 'Đà Nẵng', 'Nghệ An', 1, '250000'),
-(4, 'Đà Lạt', 'Đà Nẵng', 1, '320000'),
-(5, 'Đà Lạt', 'Nghệ An', 0, '410000'),
-(6, 'Nghệ An', 'Thái Bình', 1, '280000'),
-(7, 'Lâm Đồng', 'Quảng Bình', 1, '300000'),
-(8, 'Huế', 'Đà Lạt', 1, '450000'),
-(9, 'Cà Mau', 'Cần Thơ', 1, '190000'),
-(10, 'Tiền Giang', 'TP.HCM', 1, '180000'),
-(11, 'Đồng Nai', 'Bình Phước', 1, '90000'),
-(12, 'Cần Thơ', 'TP.HCM', 1, '150000'),
-(13, 'Binhf Dương', 'Đồng Tháp', 1, '280000'),
-(14, 'Đà Lạt', 'Đồng tháp', 1, '360000'),
-(15, 'Hưng Yên', 'Huế', 0, '390000'),
-(16, 'Cà Mau', 'Hà Nội', 0, '590000'),
-(17, 'TP.HCM', 'Hà Nội', 0, '550000'),
-(18, 'Lâm Đồng', 'Thanh Hóa', 1, '380000'),
-(19, 'Quãng Bình', 'Huế', 1, '360000'),
-(20, 'Huế', 'Hà Tĩnh', 1, '170000'),
-(21, 'Huế', 'Tiền Giang', 1, '390000'),
-(22, 'TP.HCM', 'Cam Ranh', 1, '290000'),
-(23, 'Bình Dương', 'Campuchia', 1, '210000'),
-(24, 'Cần Thơ', 'Bạc Liêu', 0, '190000'),
-(25, 'Hà Nội', 'Thượng Hải', 1, '390000'),
-(26, 'Huế', 'Cà Mau', 0, '490000'),
-(27, 'TP.HCM', 'Bình Dương', 0, '129000'),
-(28, 'Bình Dương', 'Bình Phước', 1, '50000'),
-(29, 'Thái Bình', 'Quảng Bình', 0, '190000'),
-(30, 'Hưng Yên', 'Đà Lạt', 1, '450000');
+(1, 'TP.HCM', 'Đà Lạt', '1', '280000'),
+(2, 'TP.HCM', 'Đà Nẵng', '0', '490000'),
+(3, 'Đà Nẵng', 'Nghệ An', '1', '250000'),
+(4, 'Đà Lạt', 'Đà Nẵng', '1', '320000'),
+(5, 'Đà Lạt', 'Nghệ An', '0', '410000'),
+(6, 'Nghệ An', 'Thái Bình', '1', '280000'),
+(7, 'Lâm Đồng', 'Quảng Bình', '1', '300000'),
+(8, 'Huế', 'Đà Lạt', '1', '450000'),
+(9, 'Cà Mau', 'Cần Thơ', '1', '190000'),
+(10, 'Tiền Giang', 'TP.HCM', '1', '180000'),
+(11, 'Đồng Nai', 'Bình Phước', '1', '90000'),
+(12, 'Cần Thơ', 'TP.HCM', '1', '150000'),
+(13, 'Binhf Dương', 'Đồng Tháp', '1', '280000'),
+(14, 'Đà Lạt', 'Đồng tháp', '1', '360000'),
+(15, 'Hưng Yên', 'Huế', '0', '390000'),
+(16, 'Cà Mau', 'Hà Nội', '0', '590000'),
+(17, 'TP.HCM', 'Hà Nội', '0', '550000'),
+(18, 'Lâm Đồng', 'Thanh Hóa', '1', '380000'),
+(19, 'Quãng Bình', 'Huế', '1', '360000'),
+(20, 'Huế', 'Hà Tĩnh', '1', '170000'),
+(21, 'Huế', 'Tiền Giang', '1', '390000'),
+(22, 'TP.HCM', 'Cam Ranh', '1', '290000'),
+(23, 'Bình Dương', 'Campuchia', '1', '210000'),
+(24, 'Cần Thơ', 'Bạc Liêu', '0', '190000'),
+(25, 'Hà Nội', 'Thượng Hải', '1', '390000'),
+(26, 'Huế', 'Cà Mau', '0', '490000'),
+(27, 'TP.HCM', 'Bình Dương', '0', '129000'),
+(28, 'Bình Dương', 'Bình Phước', '1', '50000'),
+(29, 'Thái Bình', 'Quảng Bình', '0', '190000'),
+(30, 'Hưng Yên', 'Đà Lạt', '1', '450000');
 
 -- --------------------------------------------------------
 
@@ -254,7 +255,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT cho bảng `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT cho bảng `migrations`
@@ -272,7 +273,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT cho bảng `tuyenxe`
 --
 ALTER TABLE `tuyenxe`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT cho bảng `users`

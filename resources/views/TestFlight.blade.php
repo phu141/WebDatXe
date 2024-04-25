@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parallax Website</title>
+    <title>Xem thông tin tuyến xe</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/product/">
+    <link rel="icon" href="{{asset('images/logo_original.jpg')}}">
 
 <!-- Bootstrap core CSS -->
 <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">

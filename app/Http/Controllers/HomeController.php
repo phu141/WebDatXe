@@ -12,7 +12,7 @@ class HomeController extends Controller
 {
     public function index(){
         // Feedback::all();
-        $getFeedback = DB::table('feedback')->limit(4)->get(); // chỉ lấy 4 item
+        $getFeedback = DB::table('feedback')->limit(10)->get(); // chỉ lấy 10 item
         return view('TrangChu')->with('getFeedback', $getFeedback);
     }    
 }
