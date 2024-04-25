@@ -164,13 +164,164 @@
             <div class="day">Thu</div>
             <div class="day">Fri</div>
             <div class="day">Sat</div> -->
-            <!-- <form action="{{URL::to('/lichdatxePost')}}" method="post">
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
                 {{ csrf_field() }}
                 <p class="day">1<input type="hidden" value="1" name="ngaydat"></p>
                 <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
-            </form> -->
-            <a href="#" class="day" onclick="testBox1()" >1</a>
-            <a href="#" class="day" onclick="testBox2()">2</a>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">2<input type="hidden" value="2" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">3<input type="hidden" value="3" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">4<input type="hidden" value="4" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">5<input type="hidden" value="5" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">6<input type="hidden" value="6" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">7<input type="hidden" value="7" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">8<input type="hidden" value="8" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">9<input type="hidden" value="9" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">10<input type="hidden" value="10" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">11<input type="hidden" value="11" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">12<input type="hidden" value="12" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">13<input type="hidden" value="13" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">14<input type="hidden" value="14" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">15<input type="hidden" value="15" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">16<input type="hidden" value="16" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">17<input type="hidden" value="17" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">18<input type="hidden" value="18" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">19<input type="hidden" value="19" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">20<input type="hidden" value="20" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">21<input type="hidden" value="21" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">22<input type="hidden" value="22" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">23<input type="hidden" value="23" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">24<input type="hidden" value="24" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">25<input type="hidden" value="25" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">26<input type="hidden" value="26" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">27<input type="hidden" value="27" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">28<input type="hidden" value="28" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">29<input type="hidden" value="29" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">30<input type="hidden" value="30" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            <form action="{{URL::to('/lichdatxePost')}}" method="post">
+                {{ csrf_field() }}
+                <p class="day">31<input type="hidden" value="31" name="ngaydat"></p>
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Xem</button>
+            </form>
+            
+            <!-- <a href="#" class="day" onclick="testBox1()" >1</a> -->
+            <!-- <a href="#" class="day" onclick="testBox2()">2</a>
             <a href="#" class="day" onclick="testBox2()">3</a>
             <a href="#" class="day" onclick="testBox1()">4</a>
             <a href="#" class="day" onclick="testBox3()">5</a>
@@ -198,7 +349,7 @@
             <a href="#" class="day" onclick="testBox3()">27</a>
             <a href="#" class="day" onclick="testBox2()">28</a>
             <a href="#" class="day" onclick="testBox1()">29</a>
-            <a href="#" class="day" onclick="testBox3()">30</a>          
+            <a href="#" class="day" onclick="testBox3()">30</a>           -->
             </div>
             <div class="text-center mt-3 mb-2">
                 <small>Bấm vào từng ngày để xem các tuyến khả dụng</small>
