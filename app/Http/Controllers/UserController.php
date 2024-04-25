@@ -31,9 +31,14 @@ class UserController extends Controller
         $uid = Session::get('id');
         $data = array();
         $data['email'] = $req->email; 
-        $data['password'] = $req->password; 
+        $data['password'] = md5($req->password); 
 
-        DB::table('users')->where('id', $uid)->update($data);
+        if($data['email'] != '' || $data['password'] != '' || ($data['email'] != '' && $data['password'] != '')){
+            DB::table('users')->where('id', $uid)->update($data);
+            Session::put('email', $req->email);
+            
+        }
+        
         return Redirect('/taikhoan');
     }
 }

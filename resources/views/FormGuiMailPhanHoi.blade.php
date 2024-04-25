@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="{{asset('images/logo_original.jpg')}}">
 
-    <title>Cập nhật lại thông tin cá nhân</title>
+    <title>Phản hồi ý kiến</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/floating-labels/">
 
@@ -23,7 +23,7 @@
     <form class="form-signin" method="post" action="{{URL::to('/phanhoiPost')}}">
       {{ csrf_field() }}
       <div class="text-center mb-4">
-        <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <img class="mb-4" src="{{asset('images/logo_original.jpg')}}" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Phản hồi ý kiến</h1>
         <p>Chúng tôi luôn lắng nghe ý kiến của bạn</p>
       </div>

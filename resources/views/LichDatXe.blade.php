@@ -149,7 +149,7 @@
           <div class="col-lg-4">
             <img class="rounded-circle" src="{{asset('images/logo.jpg')}}" alt="Generic placeholder image" width="140" height="140">
             <h2>Cảm giác trên xe như ở nhà</h2>
-            <p>Chúng tôi hoàn toàn tự tin khẳng định rằng, ***** luôn là nhà xe tiên phong trong cung cấp các dịch vụ ân cần, chu đáo, tạo cảm giác bồng bềnh, thoải mái cho quý khách hàng của mình.........</p>
+            <p>Chúng tôi hoàn toàn tự tin khẳng định rằng, chúng tôi luôn là nhà xe tiên phong trong cung cấp các dịch vụ ân cần, chu đáo, tạo cảm giác bồng bềnh, thoải mái cho quý khách hàng của mình.........</p>
             <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->

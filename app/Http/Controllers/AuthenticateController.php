@@ -19,7 +19,7 @@ class AuthenticateController extends Controller
 
         $data['name'] = $req->name;
         $data['email'] = $req->email;
-        $data['password'] = $req->password;
+        $data['password'] = md5($req->password);
 
         $user = DB::table('users')->insertGetId($data);
 
@@ -35,7 +35,7 @@ class AuthenticateController extends Controller
         $data = array();
 
         $email = $req->email;
-        $password = $req->password;
+        $password = md5($req->password);
 
         $result = DB::table('users')->where('email', $email)->where('password', $password)->first();
         if($result){

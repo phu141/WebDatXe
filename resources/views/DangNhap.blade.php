@@ -22,9 +22,10 @@
   <body>
     <form class="form-signin" method="post" action="{{URL::to('/dangnhapPost')}}">
       {{ csrf_field() }}
+      <?php echo Session::get('msg'); ?>
       <div class="text-center mb-4">
-        <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Floating labels</h1>
+        <img class="mb-4" src="{{asset('images/logo_original.jpg')}}" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Đăng nhập</h1>
         <p>Vui lòng đăng nhập để trải nghiệm các dịch vụ!</p>
       </div>
 
