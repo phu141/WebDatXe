@@ -46,6 +46,7 @@
     <div class="text-center mb-4">
     Hoặc bạn có thể
         <a href="{{URL::to('/dangxuat')}}" class="btn btn-sm btn-secondary btn-outline-danger">Đăng xuất</a>
+      hoặc <a href="{{URL::to('/')}}"><< Quay lại <<</a>
     </div>
     
   </body>

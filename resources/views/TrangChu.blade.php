@@ -38,7 +38,7 @@
       <div class="col-md-5 p-lg-5 mx-auto my-5">
         <h1 class="display-4 font-weight-normal">Nhóm 6</h1>
         <p class="lead font-weight-normal">Đổi mới sáng tạo và khởi nghiệp</p>
-        <a class="btn btn-outline-secondary" href="#"><?php
+        <a class="btn btn-outline-secondary" href="#" onclick="sayHello()"><?php
         $ktraNgDung = Session::get('id');
         if($ktraNgDung){
             echo 'Xin chào '.Session::get('name');
@@ -114,6 +114,8 @@
           <h5>Giới thiệu</h5>
           <ul class="list-unstyled text-small">
             <li><a class="text-muted" href="#">Nhóm 6</a></li>
+            <li><a class="text-muted" href="#"><i>Tên thành viên nhóm</i></a></li>
+            <li><a class="text-muted" href="#">Gọi trực tuyến để hỗ trợ d.vụ (<strong>0909 123 456</strong>)</a></li>
           </ul>
         </div>
       </div>
@@ -134,6 +136,9 @@
         fg: '#eceeef',
         text: 'Thumbnail'
       });
+      function sayHello(){
+        window.alert("Xin chào bạn. Dịch vụ của chúng tôi hi vọng sẽ làm hài lòng bạn")
+      }
     </script>
   </body>
 </html>

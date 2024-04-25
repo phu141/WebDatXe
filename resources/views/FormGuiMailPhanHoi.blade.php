@@ -37,6 +37,7 @@
       
       <p class="mt-5 mb-3 text-muted text-center">&copy; Nhóm 6 - Đổi mới sáng tạo và khởi nghiệp</p>
     </form>
+    <a href="{{URL::to('/')}}"><< Quay lại Trang chủ << </a>
    
     
   </body>
