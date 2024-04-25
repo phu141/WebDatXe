@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{asset('alertify/css/alertify.min.css')}}">
     <link rel="stylesheet" href="{{asset('alertify/css/alertify.rtl.css')}}">
     <link rel="stylesheet" href="{{asset('alertify/css/alertify.rtl.min.css')}}">
-    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+    <link rel="icon" href="{{asset('images/logo_original.jpg')}}">
 
     <title>Xem Lịch Đặt Xe</title>
 
@@ -88,7 +88,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <img class="first-slide" src="{{asset('images/tphcm_dl.jpg')}}" style="filter: brightness(30%);" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1><strong>TP.HCM -> Đà Lạt </strong></h1>
@@ -97,16 +97,16 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="second-slide" src="{{asset('images/dongvan.jpg')}}" style="filter: brightness(30%);"  alt="Second slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1><strong>Cần Thơ -> Đồng Văn </strong></h1>
-                <p>Ngại gì .</p>
+                <p>Ngại gì mà không đi để chiêm ngưỡng vẻ đẹp của Tổ quốc nhỉ.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <img class="third-slide" src="{{asset('images/dl_tphcm.jpg')}}" style="filter: brightness(30%);"  alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1><strong>TP.HCM -> Đà Lạt </strong></h1>
