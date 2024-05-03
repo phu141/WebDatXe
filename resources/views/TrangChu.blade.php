@@ -48,20 +48,20 @@
     
     ?></a>
       </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+      <div class="product-device box-shadow d-none d-md-block" style="background: #e6ffee;"></div>
+      <div class="product-device product-device-2 box-shadow d-none d-md-block" style="background: #e6fff2;"></div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background: #e6ffee;">
         <div class="my-3 py-3">
-          <h2 class="display-5">Xem lịch các tuyến</h2>
-          <p class="lead">Và chọn cho mình ngày phù hợp nhất.</p>
+          <h2 class="display-5" style="color:black">Xem lịch các tuyến</h2>
+          <p class="lead" style="color:black">Và chọn cho mình ngày phù hợp nhất.</p>
           <a href="{{URL::to('/lichdatxe')}}">
-            <button class="btn btn-primary">Xem ngay</button>
+            <button class="btn btn-primary" style="background-color: green;">Xem ngay</button>
           </a>
         </div>
-        <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        <div class="box-shadow mx-auto" style="background: #e6f9ff; width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
       <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 p-3">
@@ -74,8 +74,8 @@
         <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </div>
     </div>
-    <div class="my-3 p-3 bg-white rounded box-shadow">
-      <h6 class="border-bottom border-gray pb-2 mb-0">Các phản hồi gần đây từ khách hàng</h6>
+    <div class="my-3 p-3 bg-white rounded box-shadow mt-5">
+      <h6 class="border-bottom border-gray pb-2 mb-0 text-center">Các phản hồi gần đây từ khách hàng</h6>
       @foreach($getFeedback as $gfb)  
         
         <div class="media text-muted pt-3">
