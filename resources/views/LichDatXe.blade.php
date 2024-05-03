@@ -73,7 +73,7 @@
             </li>
             
           </ul>
-          <a href="{{URL::to('/logout')}}" class="btn btn-secondary btn-outline-danger">Đăng xuất</a>
+          <a href="{{URL::to('/dangxuat')}}" class="btn btn-secondary btn-outline-danger">Đăng xuất</a>
         </div>
       </nav>
     </header>
